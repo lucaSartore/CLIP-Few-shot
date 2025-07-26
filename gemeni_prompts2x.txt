@@ -1,0 +1,203 @@
+    # 'pink primrose'
+    lambda x: f"a photo of a {x}, a delicate flower with soft pink, cup-shaped petals and a yellow center.",
+    lambda x: f"an image of the {x}, a low-growing plant often found in gardens, featuring simple, round pink blossoms.",
+
+    # 'hard-leaved pocket orchid'
+    lambda x: f"a photo of a {x}, a type of orchid known for its stiff leaves and a pouch-like labellum.",
+    lambda x: f"an image of the {x}, an exotic orchid with intricate, often yellowish-green flowers and tough, leathery foliage.",
+
+    # 'canterbury bells'
+    lambda x: f"a photo of a {x}, a tall plant with beautiful, bell-shaped flowers, typically in shades of purple or blue.",
+    lambda x: f"an image of the {x}, a classic garden flower easily recognized by its large, hanging, cup-and-saucer blossoms.",
+
+    # 'sweet pea'
+    lambda x: f"a photo of a {x}, a climbing plant with fragrant, delicate blossoms that have ruffled petals.",
+    lambda x: f"an image of the {x}, known for its butterfly-like flowers and winged stems, often seen in pink and purple.",
+
+    # 'english marigold'
+    lambda x: f"a photo of an {x}, a bright flower with vibrant orange or yellow petals arranged in a dense, daisy-like head.",
+    lambda x: f"an image of an {x}, also known as calendula, a cheerful garden flower with a resinous scent and radiant blossoms.",
+
+    # 'tiger lily'
+    lambda x: f"a photo of a {x}, a striking lily with large, downward-facing orange flowers covered in dark spots.",
+    lambda x: f"an image of a {x}, a tall perennial with recurved petals and prominent stamens, famous for its speckled appearance.",
+
+    # 'moon orchid'
+    lambda x: f"a photo of a {x}, an elegant orchid with large, flat, moth-like white petals.",
+    lambda x: f"an image of a {x}, a popular houseplant orchid featuring a long, arching stem with a series of pristine white flowers.",
+
+    # 'bird of paradise'
+    lambda x: f"a photo of a {x}, a tropical flower with a unique structure resembling a crane's head and vivid orange and blue colors.",
+    lambda x: f"an image of a {x}, an exotic plant with large, banana-like leaves and a stunning, bird-shaped inflorescence.",
+
+    # 'monkshood'
+    lambda x: f"a photo of a {x}, a plant with tall spikes of deep blue or purple flowers shaped like a monk's cowl.",
+    lambda x: f"an image of a {x}, also known as wolfsbane, a beautiful but poisonous perennial with helmet-shaped blossoms.",
+
+    # 'globe thistle'
+    lambda x: f"a photo of a {x}, a plant with perfectly spherical, spiky blue or purple flower heads.",
+    lambda x: f"an image of a {x}, a structural plant with coarse, thistle-like leaves and striking, globe-shaped metallic-blue inflorescences.",
+
+    # 'snapdragon'
+    lambda x: f"a photo of a {x}, a flower whose snout-like blossoms can be squeezed to open and close like a dragon's mouth.",
+    lambda x: f"an image of a {x}, a common garden flower that grows in tall spires with blooms in a wide spectrum of colors.",
+
+    # "colt's foot"
+    lambda x: f"a photo of a {x}, one of the first spring wildflowers, with a single, dandelion-like yellow flower on a scaly stem.",
+    lambda x: f"an image of a {x}, a plant where the bright yellow flowers appear long before its hoof-shaped leaves emerge.",
+
+    # 'king protea'
+    lambda x: f"a photo of a {x}, a massive flower head with a crown of stiff, pointed pink bracts surrounding a central boss.",
+    lambda x: f"an image of a {x}, the national flower of South Africa, known for its large, bowl-shaped inflorescence with a fuzzy center.",
+
+    # 'spear thistle'
+    lambda x: f"a photo of a {x}, a common weed with very spiny leaves and a flower head of purple florets protected by sharp bracts.",
+    lambda x: f"an image of a {x}, a robust plant with a large purple composite flower and prickly, winged stems.",
+
+    # 'yellow iris'
+    lambda x: f"a photo of a {x}, a wetland plant with bright yellow flowers featuring three large, drooping sepals.",
+    lambda x: f"an image of a {x}, often found near water, with vibrant yellow blossoms rising above sword-like green leaves.",
+
+    # 'globe-flower'
+    lambda x: f"a photo of a {x}, a plant with bright yellow, perfectly globular flowers that look like oversized buttercups.",
+    lambda x: f"an image of a {x}, a moisture-loving perennial whose spherical shape is formed by incurved, petal-like sepals.",
+
+    # 'purple coneflower'
+    lambda x: f"a photo of a {x}, a daisy-like flower with purple petals that droop away from a large, spiky, cone-shaped center.",
+    lambda x: f"an image of a {x}, also known as Echinacea, characterized by its prominent, bristly central disk.",
+
+    # 'peruvian lily'
+    lambda x: f"a photo of a {x}, a flower with trumpet-shaped blooms often featuring intricate streaks and speckles.",
+    lambda x: f"an image of a {x}, or Alstroemeria, a lily-like flower with multiple blossoms per stem in warm colors.",
+
+    # 'balloon flower'
+    lambda x: f"a photo of a {x}, a flower whose buds swell up into large, puffy, balloon-like shapes before they open.",
+    lambda x: f"an image of a {x}, a plant with open, star-shaped flowers, usually in shades of blue or white, with prominent veins.",
+
+    # 'giant white arum lily'
+    lambda x: f"a photo of a {x}, a very large flower featuring a pure white, funnel-shaped spathe wrapped around a yellow central spadix.",
+    lambda x: f"an image of a {x}, a dramatic and elegant Calla Lily variety known for its huge, pristine white, trumpet-like bloom.",
+
+    # 'fire lily'
+    lambda x: f"a photo of a {x}, a vibrant flower with wavy-edged, flame-like red and yellow petals that are sharply reflexed.",
+    lambda x: f"an image of a {x}, or Gloriosa lily, a spectacular climbing plant with fiery, exotic blooms.",
+
+    # 'pincushion flower'
+    lambda x: f"a photo of a {x}, a flower with a domed center resembling a pincushion, studded with pin-like stamens.",
+    lambda x: f"an image of a {x}, or Scabiosa, a cottage garden favorite with intricate, flattened flower heads.",
+
+    # 'fritillary'
+    lambda x: f"a photo of a {x}, a unique, bell-shaped flower, often with a distinct checkered or mottled pattern.",
+    lambda x: f"an image of a {x}, a nodding, lantern-like flower that hangs from a slender stem, famous for its snake's head variety.",
+
+    # 'red ginger'
+    lambda x: f"a photo of a {x}, a tropical plant with a spectacular, torch-like inflorescence made of waxy, bright red bracts.",
+    lambda x: f"an image of a {x}, where small white true flowers emerge from the showy, cone-shaped column of red bracts.",
+
+    # 'grape hyacinth'
+    lambda x: f"a photo of a {x}, a small spring bulb with dense clusters of tiny, bell-shaped, deep blue flowers.",
+    lambda x: f"an image of a {x}, a low-growing plant, Muscari, that forms carpets of color with its compact spires of urn-shaped blossoms.",
+
+    # 'corn poppy'
+    lambda x: f"a photo of a {x}, a wildflower with four delicate, papery-thin, scarlet red petals, often with a black spot at their base.",
+    lambda x: f"an image of a {x}, the common field poppy, a symbol of remembrance, recognized by its simple red flower on a thin, hairy stem.",
+
+    # 'prince of wales feathers'
+    lambda x: f"a photo of a {x}, a plant with fluffy, plume-like flower spikes that are soft and feathery in texture.",
+    lambda x: f"an image of a {x}, a type of Celosia, known for its vibrant, flame-like crests of densely packed flowers.",
+
+    # 'stemless gentian'
+    lambda x: f"a photo of a {x}, a low-growing alpine flower with a large, trumpet-shaped, intense deep blue flower.",
+    lambda x: f"an image of a {x}, a jewel of rock gardens, characterized by its upward-facing, solitary, brilliant blue funnel of a flower.",
+
+    # 'artichoke'
+    lambda x: f"a photo of an {x} flower, the brilliant purple-blue, thistle-like bloom that emerges from the top of an uneaten head.",
+    lambda x: f"an image of a blooming {x}, a large, striking flower with a fuzzy, vibrant purple center surrounded by stiff green bracts.",
+
+    # 'sweet william'
+    lambda x: f"a photo of a {x}, a plant with dense, flattened clusters of small flowers, often bicolored with contrasting eyes.",
+    lambda x: f"an image of a {x}, a type of Dianthus, a fragrant biennial with rounded heads of numerous small flowers.",
+
+    # 'carnation'
+    lambda x: f"a photo of a {x}, a popular flower with full, rounded blooms composed of many layers of fringed or ruffled petals.",
+    lambda x: f"an image of a {x}, a long-stemmed flower known for its spicy, clove-like fragrance and availability in nearly every color.",
+
+    # 'garden phlox'
+    lambda x: f"a photo of a {x}, a perennial with large, domed clusters of small, fragrant flowers, popular in summer borders.",
+    lambda x: f"an image of a {x}, a plant whose flower panicles are made of many small, flat, five-petaled florets.",
+
+    # 'love in the mist'
+    lambda x: f"a photo of a {x}, a delicate flower nestled in a cloud of feathery, thread-like bracts and foliage.",
+    lambda x: f"an image of a {x}, or Nigella, with an intricate blue or white flower that later develops into a large, decorative seed capsule.",
+
+    # 'mexican aster'
+    lambda x: f"a photo of a {x}, a daisy-like flower with a yellow center surrounded by fine, radiating petals in shades of purple or pink.",
+    lambda x: f"an image of a {x}, or Cosmos, a tall, airy plant with simple, open-faced flowers on long, slender stems.",
+
+    # 'alpine sea holly'
+    lambda x: f"a photo of an {x}, a plant with spiky, conical flower heads surrounded by a dramatic, spiny ruff of metallic blue bracts.",
+    lambda x: f"an image of an {x}, a thistle-like perennial from the Eryngium genus, valued for its unique architectural form.",
+
+    # 'ruby-lipped cattleya'
+    lambda x: f"a photo of a {x}, a stunning orchid famous for its deeply colored, velvety, ruby-red lip.",
+    lambda x: f"an image of a {x}, a type of corsage orchid known for its frilly, prominent labellum and vibrant, fragrant blooms.",
+
+    # 'cape flower'
+    lambda x: f"a photo of a {x}, a plant with clusters of hanging, tubular or bell-shaped flowers, typically in shades of pink.",
+    lambda x: f"an image of a {x}, or Phygelius, a shrubby perennial with long panicles of slender, fuchsia-like flowers.",
+
+    # 'great masterwort'
+    lambda x: f"a photo of a {x}, a flower with a pincushion-like cluster of tiny florets surrounded by a ruff of papery bracts.",
+    lambda x: f"an image of a {x}, or Astrantia, an intricate and delicate-looking flower with star-like umbels.",
+
+    # 'siam tulip'
+    lambda x: f"a photo of a {x}, a tropical plant with a showy, pinecone-shaped inflorescence made of large, overlapping pink bracts.",
+    lambda x: f"an image of a {x}, a member of the ginger family, where the true flowers peek out from between colorful, petal-like bracts.",
+
+    # 'lenten rose'
+    lambda x: f"a photo of a {x}, an early-blooming perennial with thick, leathery, downward-facing, cup-shaped flowers.",
+    lambda x: f"an image of a {x}, or Helleborus, a shade-loving plant with long-lasting blooms in dusty colors, often with speckles.",
+
+    # 'barbeton daisy'
+    lambda x: f"a photo of a {x}, a cheerful flower with a classic daisy shape and intensely vibrant colors.",
+    lambda x: f"an image of a {x}, also known as a Gerbera daisy, a popular cut flower with a large head on a thick, leafless stem.",
+
+    # 'daffodil'
+    lambda x: f"a photo of a {x}, a spring flower characterized by a central trumpet-shaped corona surrounded by a ring of six outer petals.",
+    lambda x: f"an image of a {x}, a classic symbol of spring, typically with yellow or white petals and a contrasting central cup.",
+
+    # 'sword lily'
+    lambda x: f"a photo of a {x}, also known as Gladiolus, a tall flower spike with multiple large, funnel-shaped blossoms.",
+    lambda x: f"an image of a {x}, named for its sword-shaped leaves, with showy, ruffled flowers that open from the bottom of the stalk upwards.",
+
+    # 'poinsettia'
+    lambda x: f"a photo of a {x}, a plant widely associated with Christmas, known for its large, colorful bracts that look like petals.",
+    lambda x: f"an image of a {x}, a plant whose true flowers are the small yellow buds in the center, surrounded by large, modified red leaves.",
+
+    # 'bolero deep blue'
+    lambda x: f"a photo of a {x}, a variety of Campanula with vibrant, deep violet-blue, star-shaped flowers with multiple layers of petals.",
+    lambda x: f"an image of a {x}, a compact, mounding plant that becomes covered in a profusion of double, deep blue flowers.",
+
+    # 'wallflower'
+    lambda x: f"a photo of a {x}, a plant with clusters of small, four-petaled flowers in warm shades of orange, yellow, and purple.",
+    lambda x: f"an image of a {x}, a sweetly fragrant spring-blooming plant with dense heads of brightly colored blossoms.",
+
+    # 'marigold'
+    lambda x: f"a photo of a {x}, a hardy annual with dense, pom-pom-like flower heads in shades of orange and yellow.",
+    lambda x: f"an image of a {x}, a popular bedding plant known for its pungent scent and bright, ruffled, carnation-like blooms.",
+
+    # 'buttercup'
+    lambda x: f"a photo of a {x}, a simple wildflower with five glossy, bright yellow petals that have a waxy, reflective sheen.",
+    lambda x: f"an image of a {x}, a common field and meadow flower with small, cup-shaped yellow blossoms.",
+
+    # 'oxeye daisy'
+    lambda x: f"a photo of an {x}, a classic wildflower with a large, golden-yellow central disc surrounded by many pure white petals.",
+    lambda x: f"an image of an {x}, a tall, common meadow daisy that grows on a single stem and is larger than the common English daisy.",
+
+    # 'common dandelion'
+    lambda x: f"a photo of a {x}, a familiar plant with a composite flower head made of many tiny yellow ray florets.",
+    lambda x: f"an image of a {x}, known for its yellow flower that transforms into a fluffy, white, spherical seed head, or 'clock'.",
+
+    # 'petunia'
+    lambda x: f"a photo of a {x}, a popular bedding plant with wide, trumpet-shaped flowers in a vast array of colors and patterns.",
+    lambda x: f"an image of a {x}, a flower with soft, sometimes velvety petals, often seen spilling out of hanging baskets.",
